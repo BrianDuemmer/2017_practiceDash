@@ -77,6 +77,7 @@
 					<Item Name="betterRecursiveParse.vi" Type="VI" URL="../src/ConfigXML/src/betterRecursiveParse.vi"/>
 				</Item>
 				<Item Name="typedefs" Type="Folder">
+					<Item Name="DriveSide.ctl" Type="VI" URL="../src/ConfigXML/typedefs/DriveSide.ctl"/>
 					<Item Name="BasicSubsystem.ctl" Type="VI" URL="../src/ConfigXML/typedefs/BasicSubsystem.ctl"/>
 					<Item Name="EncoderControl.ctl" Type="VI" URL="../src/ConfigXML/typedefs/EncoderControl.ctl"/>
 					<Item Name="LimitControl.ctl" Type="VI" URL="../src/ConfigXML/typedefs/LimitControl.ctl"/>
@@ -84,6 +85,7 @@
 					<Item Name="PIDControl.ctl" Type="VI" URL="../src/ConfigXML/typedefs/PIDControl.ctl"/>
 					<Item Name="SetpointArrControl.ctl" Type="VI" URL="../src/ConfigXML/typedefs/SetpointArrControl.ctl"/>
 					<Item Name="ConfigXMLInputData.ctl" Type="VI" URL="../src/ConfigXML/typedefs/ConfigXMLInputData.ctl"/>
+					<Item Name="Solenoid.ctl" Type="VI" URL="../src/ConfigXML/typedefs/Solenoid.ctl"/>
 				</Item>
 				<Item Name="ConfigUI_TemplateXML.vit" Type="VI" URL="../src/ConfigXML/ConfigUI_TemplateXML.vit"/>
 			</Item>
@@ -115,10 +117,8 @@
 				</Item>
 			</Item>
 			<Item Name="User" Type="Folder">
-				<Item Name="Controls" Type="Folder">
-					<Item Name="DriveSide.ctl" Type="VI" URL="../src/User/Controls/DriveSide.ctl"/>
-				</Item>
-				<Item Name="MainConfigUI.vi" Type="VI" URL="../src/User/MainConfigUI.vi"/>
+				<Item Name="Controls" Type="Folder"/>
+				<Item Name="MainConfig.vi" Type="VI" URL="../src/User/MainConfig.vi"/>
 			</Item>
 			<Item Name="NTViewer" Type="Folder">
 				<Item Name="NTViewerUI.vi" Type="VI" URL="../src/NTViewer/NTViewerUI.vi"/>
@@ -128,6 +128,7 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
+		<Item Name="OmniHButterfly.ctl" Type="VI" URL="../src/ConfigXML/typedefs/OmniHButterfly.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
