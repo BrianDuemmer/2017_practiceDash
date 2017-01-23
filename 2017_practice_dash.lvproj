@@ -78,6 +78,7 @@
 				</Item>
 				<Item Name="typedefs" Type="Folder">
 					<Item Name="DriveSide.ctl" Type="VI" URL="../src/ConfigXML/typedefs/DriveSide.ctl"/>
+					<Item Name="OmniHButterfly.ctl" Type="VI" URL="../src/ConfigXML/typedefs/OmniHButterfly.ctl"/>
 					<Item Name="BasicSubsystem.ctl" Type="VI" URL="../src/ConfigXML/typedefs/BasicSubsystem.ctl"/>
 					<Item Name="EncoderControl.ctl" Type="VI" URL="../src/ConfigXML/typedefs/EncoderControl.ctl"/>
 					<Item Name="LimitControl.ctl" Type="VI" URL="../src/ConfigXML/typedefs/LimitControl.ctl"/>
@@ -128,7 +129,6 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
-		<Item Name="OmniHButterfly.ctl" Type="VI" URL="../src/ConfigXML/typedefs/OmniHButterfly.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
