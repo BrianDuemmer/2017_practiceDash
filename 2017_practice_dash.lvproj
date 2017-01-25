@@ -348,21 +348,21 @@
 				<Property Name="Bld_buildSpecName" Type="Str">FRC_Dashboard</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Users/developer/Documents/LabVIEW Data/builds/FRC_Dashboard</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/develoer/Documents/LabVIEW Data/builds/FRC_Dashboard</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F12754D6-B5E0-496F-B50C-3EDB6F368199}</Property>
 				<Property Name="Bld_version.build" Type="Int">32790</Property>
 				<Property Name="Bld_version.major" Type="Int">15</Property>
 				<Property Name="Destination[0].destName" Type="Str">Dashboard.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Users/developer/Documents/LabVIEW Data/builds/FRC_Dashboard/Dashboard.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/develoer/Documents/LabVIEW Data/builds/FRC_Dashboard/Dashboard.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Users/developer/Documents/LabVIEW Data/builds/FRC_Dashboard/dependency</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/develoer/Documents/LabVIEW Data/builds/FRC_Dashboard/dependency</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Support/App EXE.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9D76E8A0-85BA-49D6-B185-1CF17D9B768C}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{EED27377-D201-4535-ACD8-3E7B35016E6A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Dashboard Main.vi</Property>
