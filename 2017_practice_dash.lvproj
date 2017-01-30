@@ -15,6 +15,11 @@
 		<Item Name="Support" Type="Folder">
 			<Item Name="App EXE.ico" Type="Document" URL="../App EXE.ico"/>
 		</Item>
+		<Item Name="User" Type="Folder">
+			<Item Name="Controls" Type="Folder"/>
+			<Item Name="MainConfig.vi" Type="VI" URL="../src/User/MainConfig.vi"/>
+			<Item Name="RobotNTViewer.vi" Type="VI" URL="../src/User/RobotNTViewer.vi"/>
+		</Item>
 		<Item Name="src" Type="Folder">
 			<Item Name="AutoScripting" Type="Folder">
 				<Item Name="General" Type="Folder">
@@ -117,12 +122,8 @@
 					<Item Name="FetchRemoteLogUI.vi" Type="VI" URL="../src/LoggerViewer/src/FetchRemoteLogUI.vi"/>
 				</Item>
 			</Item>
-			<Item Name="User" Type="Folder">
-				<Item Name="Controls" Type="Folder"/>
-				<Item Name="MainConfig.vi" Type="VI" URL="../src/User/MainConfig.vi"/>
-			</Item>
 			<Item Name="NTViewer" Type="Folder">
-				<Item Name="NTViewerUI.vi" Type="VI" URL="../src/NTViewer/NTViewerUI.vi"/>
+				<Item Name="NTViewerTemplate.vit" Type="VI" URL="../src/NTViewer/NTViewerTemplate.vit"/>
 			</Item>
 		</Item>
 		<Item Name="dependency" Type="Folder" URL="../../../../Users/develoer/Documents/LabVIEW Data/ProjectTemplates/Source/DashTemplate/dependency">
